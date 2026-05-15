@@ -20,7 +20,7 @@ Assess. Validate. Comply.
 
 ## What is this?
 
-This repository provides powerShell scripts for Microsoft Intune Custom Compliance policies and device configuration checks.
+PowerShell scripts for Microsoft Intune Custom Compliance policies and device configuration checks.
 
 > Browse the documentation below for setup notes, usage details, and project-specific context.
 
@@ -42,4 +42,4 @@ This repository provides powerShell scripts for Microsoft Intune Custom Complian
 
 ## Existing Documentation
 
-# Custom-Compliance-Scrpts
+# CustomComplianceScripts
