@@ -12,6 +12,12 @@ Assess. Validate. Comply.
 [![GitHub issues](https://img.shields.io/github/issues/JayRHa/CustomComplianceScripts?style=for-the-badge&logo=github&color=d73a4a)](https://github.com/JayRHa/CustomComplianceScripts/issues)
 [![Contributors](https://img.shields.io/github/contributors/JayRHa/CustomComplianceScripts?style=for-the-badge&logo=github&color=28a745)](https://github.com/JayRHa/CustomComplianceScripts/graphs/contributors)
 
+<p>
+  <a href="https://jannikreinhard.com/">Blog</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a>
+</p>
+
 ---
 
 `Endpoint Management` | `PowerShell` | `Public` | `Maintained`
