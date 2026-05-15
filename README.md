@@ -51,14 +51,9 @@ flowchart LR
    git clone https://github.com/JayRHa/CustomComplianceScripts.git
    ```
 
-3. Continue with the project-specific documentation in the next section.
+3. Continue with the setup, usage, or workflow sections below.
 
 ---
 <!-- unified-readme:end -->
-
-<!-- project-documentation:start -->
-## Project Documentation
-
-The sections below contain the repository-specific setup, usage, and reference material for this project.
 
 # CustomComplianceScripts
