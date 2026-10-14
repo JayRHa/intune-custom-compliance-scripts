@@ -1,24 +1,36 @@
 <!-- jr-brand:start -->
-<div align="center">
+<p align="center">
   <a href="https://jannikreinhard.com/">
-    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — Driving AI with passion" width="100%">
+    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — I help enterprises ship secure AI agents" width="100%">
   </a>
-  <h1>Custom Compliance Scripts</h1>
-  <p><strong>PowerShell scripts for Microsoft Intune Custom Compliance policies and device configuration checks.</strong></p>
-  <p>
-  <a href="https://jannikreinhard.com/"><img src="https://img.shields.io/badge/Website-146CDD?style=flat-square&amp;logo=wordpress&amp;logoColor=white" alt="Website"></a>
-  <a href="https://github.com/JayRHa"><img src="https://img.shields.io/badge/GitHub-081427?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/jannik-r/"><img src="https://img.shields.io/badge/LinkedIn-0795FF?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/jannik_reinhard"><img src="https://img.shields.io/badge/X-081427?style=flat-square&amp;logo=x&amp;logoColor=white" alt="X"></a>
-  <a href="https://www.youtube.com/@jannikreinhard"><img src="https://img.shields.io/badge/YouTube-146CDD?style=flat-square&amp;logo=youtube&amp;logoColor=white" alt="YouTube"></a>
-  </p>
-  <p><sub>Driving AI with passion · Microsoft Foundry · Intune · Azure</sub></p>
-</div>
+</p>
+<p align="center">
+  <a href="https://jannikreinhard.com/">Website</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a> ·
+  <a href="https://www.youtube.com/@jannikreinhard">YouTube</a>
+</p>
 <!-- jr-brand:end -->
+
+# Intune custom compliance scripts
+
+**Type:** Collection · **Status:** Community project
 
 ## Overview
 
+PowerShell scripts for Microsoft Intune Custom Compliance policies and device configuration checks.
+
 This repository contains Microsoft Intune custom compliance discovery scripts and their matching JSON definitions. Each folder covers one practical Windows compliance check.
+
+## Quickstart
+
+1. Open the folder for the check you want to use.
+2. Review and test the PowerShell discovery script on a test device.
+3. In the Microsoft Intune admin center, create a custom compliance policy.
+4. Upload the `.ps1` discovery script and import the matching `.json` definition.
+5. Assign the policy to a test group before a wider rollout.
+
+> **Note:** Always review the expected values in the JSON file. Adjust them to match your own compliance requirements.
 
 ## Available Checks
 
@@ -32,28 +44,12 @@ This repository contains Microsoft Intune custom compliance discovery scripts an
 | `Check-IfDeviceIsUpToDate` | Check the Windows update state |
 | `Check-IfUnathorizedLocalAdmins` | Detect unexpected local administrators |
 
-## Quickstart
-
-1. Open the folder for the check you want to use.
-2. Review and test the PowerShell discovery script on a test device.
-3. In the Microsoft Intune admin center, create a custom compliance policy.
-4. Upload the `.ps1` discovery script and import the matching `.json` definition.
-5. Assign the policy to a test group before a wider rollout.
-
-> **Note:** Always review the expected values in the JSON file. Adjust them to match your own compliance requirements.
-
 ## License
 
 This project is available under the terms in [LICENSE](LICENSE).
 
 <!-- jr-brand-footer:start -->
-
 ---
 
-<div align="center">
-  <p><sub>Built and maintained by <a href="https://jannikreinhard.com/">Jannik Reinhard</a> · Microsoft MVP for Security and AI Platform.</sub></p>
-  <p><a href="https://www.buymeacoffee.com/jannikreinf">Support the open-source work</a></p>
-  <p><strong>Stay healthy, Cheers Jannik</strong></p>
-</div>
-
+[Articles and guides](https://jannikreinhard.com/) · [Repository index](https://github.com/JayRHa/.github/blob/main/REPOSITORIES.md)
 <!-- jr-brand-footer:end -->
